@@ -1,0 +1,16 @@
+{
+    "name": "dsantangelo/dice-roller",
+    "description": "A dice roller",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Dsantang\\DiceRoller\\": "src"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "^0.4.3",
+        "jms/serializer": "^3.10",
+        "ext-json": "*",
+        "symfony/validator": "^5.1"
+    }
+}
